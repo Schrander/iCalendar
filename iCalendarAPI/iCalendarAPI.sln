@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICalendarAPI", "ICalendarAPI.csproj", "{837BD166-E60E-44F0-B0E3-EA91F8F2C673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperTools", "..\..\HelperToolsv452\HelperTools\HelperTools.csproj", "{5B2C43CC-59F2-415C-8DF0-FADC07536F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperTools.Web", "..\..\HelperToolsv452\HelperTools.Web\HelperTools.Web.csproj", "{E8FF0AFA-5691-4ABE-9CA7-2C42C4B0C82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICalenderAPI.Tests", "..\ICalenderAPI.Tests\ICalenderAPI.Tests.csproj", "{E48B28F1-9FB6-4E96-A3ED-51595F4DC234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{837BD166-E60E-44F0-B0E3-EA91F8F2C673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837BD166-E60E-44F0-B0E3-EA91F8F2C673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837BD166-E60E-44F0-B0E3-EA91F8F2C673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837BD166-E60E-44F0-B0E3-EA91F8F2C673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2C43CC-59F2-415C-8DF0-FADC07536F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2C43CC-59F2-415C-8DF0-FADC07536F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2C43CC-59F2-415C-8DF0-FADC07536F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2C43CC-59F2-415C-8DF0-FADC07536F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FF0AFA-5691-4ABE-9CA7-2C42C4B0C82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FF0AFA-5691-4ABE-9CA7-2C42C4B0C82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FF0AFA-5691-4ABE-9CA7-2C42C4B0C82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FF0AFA-5691-4ABE-9CA7-2C42C4B0C82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48B28F1-9FB6-4E96-A3ED-51595F4DC234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48B28F1-9FB6-4E96-A3ED-51595F4DC234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48B28F1-9FB6-4E96-A3ED-51595F4DC234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48B28F1-9FB6-4E96-A3ED-51595F4DC234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
